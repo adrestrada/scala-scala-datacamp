@@ -10,3 +10,16 @@ Instructions
 Create a named and with the name Alex as a string literal as its value.varplayerA
 Change the point value of the ace of diamonds so it is worth 11 points, instead of the original value of 1 point it was assigned.
 Add and to calculate the value of Alex's hand and print the result.jackClubsaceDiamonds
+
+
+// Create a mutable variable for Alex as player A
+var playerA: String = "Alex"
+
+// Change the point value of A♦ from 1 to 11
+val aceDiamonds: Int = 11
+// Calculate hand value for J♣ and A♦
+println(jackClubs + aceDiamonds)
+
+playerA: String = "Alex"
+aceDiamonds: Int = 11
+21
